@@ -43,7 +43,7 @@ public class Problema02 {
 
         switch (tipoCarro) {
             case 1:
-            if (35000 <= evaluoComercial) {
+                if (35000 <= evaluoComercial) {
                     valorBase = (evaluoComercial * 0.0001);
                     total = valorBase + 2 + 1.50;
                     System.out.printf("Peaje \"Buena Vía\"\n"
@@ -59,7 +59,7 @@ public class Problema02 {
                             valorBase,
                             total);
                     break;
-                }  else {
+                } else {
                     valorBase = (evaluoComercial * 0.0001);
                     total = valorBase + 2;
                     System.out.printf("Peaje \"Buena Vía\"\n"
